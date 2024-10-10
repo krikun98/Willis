@@ -13332,7 +13332,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1634"
+		(property "LCSC" "C1642"
 			(at 252.73 139.7 0)
 			(effects
 				(font
@@ -14353,7 +14353,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C1634"
+		(property "LCSC" "C1642"
 			(at 252.73 152.4 0)
 			(effects
 				(font
@@ -14839,6 +14839,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 44.45 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C356849"
 			(at 44.45 158.75 0)
 			(effects
 				(font
