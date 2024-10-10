@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Willis")
-		(date "2024-08-29")
-		(rev "V0.1")
+		(date "2024-10-11")
+		(rev "V0.2")
 		(company "krikun98")
 	)
 	(lib_symbols
