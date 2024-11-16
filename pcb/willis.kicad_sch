@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "Willis")
-		(date "2024-10-11")
-		(rev "V0.2")
+		(date "2024-11-16")
+		(rev "V0.3")
 		(company "krikun98")
 	)
 	(lib_symbols
@@ -10075,6 +10075,28 @@
 			)
 		)
 	)
+	(global_label "VDD"
+		(shape input)
+		(at 77.47 152.4 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3be87fc-5797-4f7f-befc-a9c2fe25ff3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 77.47 159.0138 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "VBAT"
 		(shape input)
 		(at 121.92 172.72 0)
@@ -13575,71 +13597,6 @@
 			(project "willis"
 				(path "/d115f25c-1917-4dd2-921b-1a223dfb969b"
 					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 77.47 152.4 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "52a2da7b-72ba-472d-ac22-1cd8ed0aba7e")
-		(property "Reference" "#PWR012"
-			(at 77.47 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 77.597 156.7942 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a28151c-fb3e-4a54-b304-872c8d291630")
-		)
-		(instances
-			(project "willis"
-				(path "/d115f25c-1917-4dd2-921b-1a223dfb969b"
-					(reference "#PWR012")
 					(unit 1)
 				)
 			)
