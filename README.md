@@ -35,7 +35,7 @@ It's the same as the nrfmicro bootloader with a modified USB device name.
 You can use the [Willis](https://github.com/krikun98/willis-zmk-config) config template for customization.
 The firmware supports ZMK Studio.
 
-[Miryoku](https://github.com/manna-harbour/miryoku_zmk) is strongly recommended, support is currently available in a PR.
+[Miryoku](https://github.com/manna-harbour/miryoku_zmk) is strongly recommended.
 
 ### BOM/Build instructions
 
@@ -45,11 +45,11 @@ Please refer to the [nrfmicro wiki](https://github.com/joric/nrfmicro/wiki/solde
 
 ## Links
 
-### Version 0.2 PCB
+### Version 0.3 PCB
 
-[IBOM](https://htmlpreview.github.io/?https://github.com/krikun98/Willis/blob/V0.2/pcb/bom/ibom.html)
+[IBOM](https://htmlpreview.github.io/?https://github.com/krikun98/Willis/blob/V0.3/pcb/bom/ibom.html)
 
-[gerbers](../../releases/download/V0.2/Willis_V0.2_gerbers.zip)
+[gerbers](../../releases/download/V0.3/Willis_V0.3_gerbers.zip)
 
 front|back
 --|--
@@ -63,12 +63,10 @@ Willis is fully compatible with plates/cases for the original Bruce.
 
 Plate files are also available in the [Bruce resources](https://github.com/josh-l-wang/Bruce-the-Keyboard-the-Resources) repository.
 
-Willis-specific cases with the following modifications:
+Willis-specific cases with button/battery cutouts:
 
-- Reset/soft_off buttons
-- Battery cutout for larger batteries
-
-Are currently in a pre-release stage and available by request.
+- seirin-blu's [Willis the MFR2](https://github.com/seirin-blu/Bruce-MFR2/tree/main/Willis%20the%20MFR2)
+- Ha Ha Ha's [Humane Willis](https://makerworld.com/en/models/755158#profileId-689273)
 
 ## TODO
 
